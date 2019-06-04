@@ -303,7 +303,8 @@
                 <configuration>
                     <includes>
                         <include>**/*Tests.java</include>
-                    </includes>
+		</includes>
+		<skipTests>true</skipTests>
                 </configuration>
             </plugin>
             <plugin>
